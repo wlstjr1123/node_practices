@@ -34,3 +34,11 @@
    3) npm 모듈: npm를 통해서 node_module에서 설치해서 사용하는 모듈
       - 로컬 배포
       - 원격 배포
+
+6. npmjs.com npm regstry에 패키지 배포
+   1. 사용자 등록
+   2. 배포
+     $ npm adduser
+       username: ...
+       Password: ...
+       [douzone-wlstjr1123-math] $ npm publish
