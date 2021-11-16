@@ -3,7 +3,7 @@ douzone-bipa-math npm 모듈 테스트(모듈 패키지: 로컬 배포)
 
 
 
-$ npm i ../douzone-wlstjr1123.math
+$ npm i ../douzone-wlstjr1123-math
 명령으로 설치 후 테스트 할 것
 */
 
