@@ -73,3 +73,68 @@ package.json 스크립트
    [helloweb-ex02] $ mkdir controllers
    [helloweb-ex02] $ mkdir models
    [helloweb-ex02] $ mkdir views
+
+---
+
+9. emaillist(models baseds on mysql) - 기본 SQL 기반
+1)
+[emaillist] $ npm init -y
+
+2)
+[emaillist] $ npm i express
+[emaillist] $ npm i ejs
+[emaillist] $ npm i mysql2      // 노드기반
+[emaillist] $ npm i -D nodemon  // 패키지를 감시
+
+3)
+package.json 스크립트
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodaemon index.js"
+  }
+   [emaillist] $ npm start      (운용시)
+   [emaillist] $ npm run debug  (개발시... Live Update)
+
+4) 디렉토리 구조
+   [emaillist] $ mkdir public
+   [emaillist] $ mkdir routes
+   [emaillist] $ mkdir controllers
+   [emaillist] $ mkdir models
+   [emaillist] $ mkdir views
+
+10. guestbook(models baseds on mysql) - 기본 SQL 기반
+1)
+[guestbook] $ npm init -y
+
+2)
+[guestbook] $ npm i express
+[guestbook] $ npm i ejs
+[guestbook] $ npm i mysql2      // 노드기반
+[guestbook] $ npm i -D nodemon  // 패키지를 감시
+
+3)
+package.json 스크립트
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodaemon index.js"
+  }
+   [guestbook] $ npm start      (운용시)
+   [guestbook] $ npm run debug  (개발시... Live Update)
+
+4) 디렉토리 구조
+   [guestbook] $ mkdir public
+   [guestbook] $ mkdir routes
+   [guestbook] $ mkdir controllers
+   [guestbook] $ mkdir models
+   [guestbook] $ mkdir views
+
+
+11. mysite(models based on Sequelize) - ORM 기반
+
+1. orm(sequelize)
+2. user(session, 인증, 접근제어), jQuery(ajax) + Application
+3. views -> include(ejs)
+4. dotenv(configuration: DB connection, port, static directory)
+5. log(winston)
+6. fileupload(multer)
+7. error 처리
