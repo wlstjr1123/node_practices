@@ -44,8 +44,8 @@
            |--- [error]
    |--- [multer-temporary-store]
    |--- public
+           |--- [upload-images]
            |--- assets
-                   |--- [upload-images]
                    |--- css
                    |--- images
                    |--- js
