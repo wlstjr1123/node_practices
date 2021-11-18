@@ -1,4 +1,4 @@
-W**/node_modules
+**/node_modules
 
 **/.classpath
 **/.project

@@ -9,9 +9,10 @@ dotenv.config({
 });
 
 // 2. Application Routers
-const applicationRouter = require('../routes')
+const {applicationRouter} = require('./routes')
 
 // 3. Logger
+const logger = require('./logging');
 
 // 4. Application Setup
 const application = express()
